@@ -162,7 +162,11 @@ p {
 img {
   max-width: 100%;
   height: auto;
+  
+  
 }
+
+
 .container {
   max-width: 800px;
   width: 100%;
@@ -349,4 +353,43 @@ img {
 .home .content-pick .destination .btn:hover {
   background: #FFFFFF;
   color: #17A2B8;
+}
+
+
+/* Animation */
+
+#box {
+  width: var(--boxwidth);
+  height: var(--boxwidth);
+  left: 0;
+  top: 0;
+  border: 1px solid #7788FF;
+  margin: 0;
+  position: relative;
+  background-color: #2233FF;
+  display: flex;
+  justify-content: center;
+} 
+
+
+
+/* Drawing square */
+
+canvas {
+  border: 1px solid black;
+  width: 560px;
+  height: 360px;
+}
+
+/* box for stop prop */
+#boxForStopProp {
+  width: 200px;
+  height:200 px;
+  border: 3px solid dodgerblue;
+  text-align: center;
+}
+
+#myBtn {
+  margin-top: 80px;
+  font-size:20px;
 }
